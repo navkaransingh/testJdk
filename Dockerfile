@@ -1,4 +1,4 @@
-FROM openjdk:15-jdk-alpine
+FROM 15-ea-22-oraclelinux7
 VOLUME /tmp
 ARG JAVA_OPTS
 ENV JAVA_OPTS=$JAVA_OPTS
